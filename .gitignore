@@ -1,0 +1,9 @@
+/nbproject
+/app/tmp/tests/*
+/app/tmp/sessions/*
+/app/tmp/logs/*
+/app/tmp/cache/views/*
+/app/tmp/cache/models/*
+/app/tmp/cache/persistent/*
+/app/config/database.php
+!.gitignore
