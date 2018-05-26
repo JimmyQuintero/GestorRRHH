@@ -1,8 +1,7 @@
 
 <style>
-    thead > tr{
-        color: #212121 !important;
-        background-color: #212121 !important;
+    .tabla > thead > tr{
+        background: #9C9D9E !important;
     }
 </style>
 <div class="box2">
