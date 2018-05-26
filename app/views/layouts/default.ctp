@@ -38,7 +38,7 @@ Labora GT
                 Procesos
                 <i class="whmcs icon"></i>
                 <div class="menu">
-                    <a class="item" href="/GestorRRHH/ajustes" >Sueldos</a>
+                    <a class="item" href="/GestorRRHH/ajustes" >Puestos</a>
                     <a class="item" href="/GestorRRHH/ausencias">Ausencias</a>
                     <a class="item" href="/GestorRRHH/horas_extras" >Horas Extras</a>
                 </div>

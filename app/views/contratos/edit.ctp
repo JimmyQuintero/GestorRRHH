@@ -1,4 +1,7 @@
-<div class="box">
+<div class="ui segment vertical">
+<div class="ui container">    
+
+   <div class="box">
     <div class="title"><h2>Datos del Empleado</h2>
         <?php echo $this->Html->image("title-hide.gif", array('class' => 'toggle')); ?>
     </div>
@@ -105,5 +108,9 @@
                 <?php echo $this->Html->link('Regresar', array('controller' => 'empleados', 'action' => 'index')); ?>
             </div>
         </div>
+    </div>
+</div>
+
+
     </div>
 </div>
