@@ -4,6 +4,11 @@
         background: #9C9D9E !important;
         border: 0px;
     }
+    .tabla  tbody  th{
+        background: #fff !important;
+        border: 0px;
+        color: #000;
+    }
 </style>
 <div class="box2">
     <div class="content2" >        
