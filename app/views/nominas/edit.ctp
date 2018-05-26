@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 <div class="ui segment vertical">
     <div class="ui container">
         <div class="ui header block">
@@ -73,21 +71,6 @@
         <h3 class="ui header">Acciones</h3>
         <div class="ui divider"></div>
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> parent of 30dd1ae... Edit nomina
-            echo "<div style='float:left;width:30%;'>";
-            $options = array('Pantalla' => 'Pantalla', 'Archivo' => 'Archivo');
-            echo $this->Form->input('VISUALIZAR', array('div' => false, 'label' => 'Visualizar', 'class' => 'small', 'type' => 'select', 'options' => $options, 'empty' => 'Seleccione una Opcion'));
-            echo "</div>";
-            ?>
-        </div>
-        <div class="row"></div>
-<<<<<<< HEAD
-=======
-=======
         <div class="ui form">
             <?php echo $this->Form->create(false, array('target' => '_blank', 'url' => array('controller' => 'nominas', 'action' => 'mostrar'))); ?>
             <div class="field">
@@ -97,22 +80,12 @@
                         echo $this->Form->input('nomina_id', array('type' => 'hidden', 'value' => $nomina['Nomina']['id']));
                         echo $this->Form->input('PERSONAL', array('div' => false, 'label' => 'Personal', 'class' => 'ui dropdown search', 'type' => 'select', 'options' => $options, 'empty' => 'Seleccione una Opcion')); 
                         ?>
->>>>>>> 793c506d018ef2dc5ee9a2e22ad0eba43c70dc54
                     </div>
                     <div class="field">
                         <?php $options = array('Nomina' => 'Nomina', 'Resumen' => 'Resumen de Nomina', 'Completo' => 'Completo');
                         
                         echo $this->Form->input('TIPO', array('div' => false, 'label' => 'Tipo', 'class' => 'ui dropdown', 'type' => 'select', 'options' => $options, 'empty' => 'Seleccione una Opcion'));
                         ?>
-<<<<<<< HEAD
->>>>>>> 3f584be3c280c93d81b408509c4f170dc8d89c90
-=======
->>>>>>> parent of 30dd1ae... Edit nomina
-
-        <div class="row">            
-            <div class="boton">
-                <?php echo $this->Form->End('Mostrar'); ?>
-=======
                     </div>
                     <div class="field">
                         <?php 
@@ -121,7 +94,6 @@
                         ?>
                     </div>
                 </div>
->>>>>>> 793c506d018ef2dc5ee9a2e22ad0eba43c70dc54
             </div>
             <div class="ui divider hidden"></div>
             <div class="fiel">
@@ -152,4 +124,3 @@
         </div>
     </div>
 </div>
->>>>>>> a748b45d250d0e1f1643185455e98368d368ab82
