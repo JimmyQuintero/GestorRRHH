@@ -14,7 +14,9 @@
         <?php echo $this->Html->css('messages.css'); ?>
         <?php echo $this->Html->css('jquery-ui-1.8.4.custom.css'); ?>        
         <?php echo $this->Html->script('jquery-1.6.1.min.js'); ?> 
-        <?php echo $this->Html->script('jquery-ui-1.8.14.custom.min.js'); ?>         
+        <?php echo $this->Html->script('jquery-ui-1.8.14.custom.min.js'); ?>
+        
+                 <?php echo $html->css('semantic.css'); ?>         
     </head> 
     <body>         
         <div class="wrapper">             
