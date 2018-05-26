@@ -2,6 +2,7 @@
 <style>
     tr{
         color: #212121 !important;
+        background-color: #212121 !important;
     }
 </style>
 <div class="box2">
