@@ -28,7 +28,7 @@ class EmpleadosController extends AppController {
                     'order' => array(
                         'Contrato.FECHA_INI' => 'desc'),
                 )
-                ));
+            ));
 
         $data = $this->paginate('Empleado', $filtro);
         $this->set('empleados', $data);
@@ -63,7 +63,7 @@ class EmpleadosController extends AppController {
             'conditions' => array(
                 'Empleado.id' => $id
             )
-                ));
+        ));
         $this->set('empleado', $empleado);
     }
 
@@ -104,7 +104,7 @@ class EmpleadosController extends AppController {
                     'order' => array(
                         'Contrato.FECHA_INI' => 'desc'),
                 )
-                ));
+            ));
 
         $data = $this->paginate('Empleado', $filtro);
         $this->set('empleados', $data);

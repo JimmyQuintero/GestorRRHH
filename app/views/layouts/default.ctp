@@ -7,8 +7,10 @@
         <?php echo $html->charset('utf-8'); ?>   
 
         <?php echo $this->Html->css('semantic.css'); ?>   
+        <?php echo $this->Html->css('calendar.min.css'); ?>  
         <?php echo $this->Html->script('jquery.js'); ?>
-        <?php echo $this->Html->script('semantic.js'); ?>   
+        <?php echo $this->Html->script('semantic.js'); ?> 
+        <?php echo $this->Html->script('calendar.js'); ?>   
 
     </head> 
     <body>      
@@ -118,7 +120,35 @@ Labora GT
                 //habilitacion de dropdown
                 $('.ui.dropdown').dropdown();
 
-
+                $('.menu .item')
+                    .tab()
+                ;
+                $('#calendar').calendar({
+                    type: 'date',
+                    monthFirst: false,
+                    formatter: {
+                        date: function (date, settings) {
+                            if (!date) return '';
+                            var day = date.getDate();
+                            var month = date.getMonth() + 1;
+                            var year = date.getFullYear();
+                            return day + '-' + month + '-' + year ;
+                        }
+                    }
+                });
+                $('#calendarIngreso').calendar({
+                    type: 'date',
+                    monthFirst: false,
+                    formatter: {
+                        date: function (date, settings) {
+                            if (!date) return '';
+                            var day = date.getDate();
+                            var month = date.getMonth() + 1;
+                            var year = date.getFullYear();
+                            return day + '-' + month + '-' + year ;
+                        }
+                    }
+                });
             });
         </script>
     </body>
