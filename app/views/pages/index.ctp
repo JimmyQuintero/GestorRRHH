@@ -5,13 +5,13 @@
         <div class="ui statistics" style="display:block;">
             <div class="statistic segment ui green very padded">
                 <div class="value">
-                    0
+                    <?php echo $noEmpleados; ?>
                 </div>
                 <div class="label">Empleados</div>
             </div>
             <div class="statistic segment ui very padded teal">
                 <div class="value">
-                    10
+                    <?php echo $noContratadosMes ?>
                 </div>
                 <div class="label">Contratados este mes </div>
             </div>

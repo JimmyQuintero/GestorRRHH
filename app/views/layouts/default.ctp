@@ -26,7 +26,7 @@ Labora GT
                 <img  class="ui centered image small" src="/GestorRRHH/img/LaboraGT-logo-noText.png" alt="">
             </div>
 
-            <a class="item" href="/GestorRRHH/Pages/display"> Inicio</a>            
+            <a class="item" href="/GestorRRHH/"> Inicio</a>            
             <div class="item">
                 Operación
                 <i class="whmcs icon"></i>

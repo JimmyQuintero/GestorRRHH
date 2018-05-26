@@ -6,7 +6,7 @@
                 <i class="right angle icon divider"></i>
                 <a href="/GestorRRHH/nominas" class="section">Nominas</a>
                 <i class="right angle icon divider"></i>
-                <div class="section active">Editar Nomina</div>
+                <div class="section active">Generar Nomina</div>
             </div>
         </div>
         <h2 class="ui header">Datos de la nomina</h2>
