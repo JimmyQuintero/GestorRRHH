@@ -1,3 +1,5 @@
+<div class="ui segment vertical very padded">
+<div class="ui container">  
 <div class="box">
     <div class="title"><h2>Nominas</h2></div>
     <div class="content pages">
@@ -6,14 +8,25 @@
             echo $this->Form->create(false);
             echo "<div>";
             echo "<div style='float:left;width:30%;'>";
-            $options = array('1' => 'Enero', '2' => 'Febrero', '3' => 'Marzo', '4' => 'Abril', '5' => 'Mayo', '6' => 'Junio', '7' => 'Julio'
-                , '8' => 'Agosto', '9' => 'Septiembre', '10' => 'Octubre', '11' => 'Noviembre', '12' => 'Diciembre');
-            echo $this->Form->label('Mes');
-            echo $this->Form->input('Fopcion', array('div' => false, 'label' => false, 'class' => 'small', 'type' => 'select', 'options' => $options, 'empty' => 'Seleccione una Opcion'));
+            $options = 
+            array('1' => 'Enero', 
+                  '2' => 'Febrero', 
+                  '3' => 'Marzo', 
+                  '4' => 'Abril', 
+                  '5' => 'Mayo', 
+                  '6' => 'Junio', 
+                  '7' => 'Julio',
+                  '8' => 'Agosto', 
+                  '9' => 'Septiembre', 
+                  '10' => 'Octubre', 
+                  '11' => 'Noviembre', 
+                  '12' => 'Diciembre');
+            echo $this->Form->label('Mes: ');
+            echo $this->Form->input('Fopcion', array('div' => false, 'label' => false, 'class' => 'ui selection dropdown', 'type' => 'select', 'options' => $options, 'empty' => 'Seleccione una Opcion'));
             echo "</div>";
             echo "<div style='float:left;width:20%'>";
-            echo $this->Form->label('Año');
-            echo $this->Form->input('AÑO', array('div' => false, 'label' => false, 'class' => 'small'));
+            echo $this->Form->label('Año: ');
+            echo $this->Form->input('AÑO', array('div' => false, 'label' => false, 'class' => 'ui input'));
             echo "</div>";
             echo "<div style='float:left;width:15%;padding-top:20px'>";
             echo $this->Form->End('Buscar');
@@ -27,7 +40,8 @@
             <?php echo $this->Paginator->numbers(array('class' => 'disabled', 'separator' => '')); ?>
             <?php echo $this->Paginator->next(null, array(), null, array('class' => 'disabled')); ?>
         </div>
-        <table cellpadding="0" cellspacing="0">
+
+        <table cellpadding="0" cellspacing="0" class="ui celled table">
             <thead>
                 <tr>
                     <th></th>  
@@ -86,12 +100,18 @@
 </div>
 
 <div class="box">
-    <div class="title">	<h2>Acciones</h2></div>
+
+    <form action="/GestorRRHH/nominas/add/" id="" method="post" accept-charset="utf-8" class="ui form">
+        <button class="ui button fluid teal" type="submit">Nuevo</button>                
+    </form>    
+<!--     <div class="title">	<h2>Acciones</h2></div>
     <div class="content form">
         <div class="row">
             <div class="boton">
                 <?php echo $this->Html->link('Nueva Nomina', array('action' => 'add')); ?>
             </div>
         </div>
-    </div>
+    </div> -->
+</div>
+</div>
 </div>
