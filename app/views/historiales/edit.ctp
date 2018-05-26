@@ -1,3 +1,5 @@
+<div class="ui segment vertical very padded">
+<div class="ui container">  
 <div class="box">
     <div class="title"><h2>Datos del Cargo</h2>
         <?php echo $this->Html->image("title-hide.gif", array('class' => 'toggle')); ?>
@@ -23,7 +25,7 @@
         <?php echo $this->Html->image("title-hide.gif", array('class' => 'toggle')); ?>
     </div>
     <div class="content pages">
-        <table cellpadding="0" cellspacing="0">
+        <table cellpadding="0" cellspacing="0" class="ui celled table">
             <thead>
                 <tr>
                     <th></th>                      
@@ -95,4 +97,6 @@
             </div>
         </div>        
     </div>
+</div>
+</div>
 </div>
