@@ -58,7 +58,7 @@ Labora GT
                     <a class="item" >Deducciones</a>
                     <a class="item" href="/GestorRRHH/eventualidades">Eventualidades</a>
                     <a class="item" >Bonos Especiales</a>
-                    <a class="item" >Contratos</a>
+                    <a class="item" href="/GestorRRHH/contratos" >Contratos</a>
                 </div>
             </div>
             <div class="item">
