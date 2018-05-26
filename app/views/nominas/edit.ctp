@@ -84,10 +84,10 @@
 
                     </div>
                     <div class="field">
-                       <?php //$options = array('Nomina' => 'Nomina', 'Resumen' => 'Resumen de Nomina', 'Completo' => 'Completo');
+                        <!-- $options = array('Nomina' => 'Nomina', 'Resumen' => 'Resumen de Nomina', 'Completo' => 'Completo'); -->
                         <?php $options = array('Nomina' => 'Nomina', 'Resumen' => 'Resumen de Nomina');
-            echo $this->Form->input('TIPO', array('div' => false, 'label' => 'Tipo', 'class' => 'ui dropdown', 'type' => 'select', 'options' => $options, 'empty' => 'Seleccione una Opcion'));
-            ?>
+                        echo $this->Form->input('TIPO', array('div' => false, 'label' => 'Tipo', 'class' => 'ui dropdown', 'type' => 'select', 'options' => $options, 'empty' => 'Seleccione una Opcion'));
+                        ?>
 
                     </div>
                     <div class="field">
