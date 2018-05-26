@@ -2,6 +2,7 @@
 <style>
     .tabla  thead  th{
         background: #9C9D9E !important;
+        border: 0px;
     }
 </style>
 <div class="box2">
