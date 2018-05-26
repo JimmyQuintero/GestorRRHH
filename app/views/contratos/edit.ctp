@@ -31,7 +31,7 @@
         <?php echo $this->Html->image("title-hide.gif", array('class' => 'toggle')); ?>
     </div>
     <div class="content pages">
-        <table cellpadding="0" cellspacing="0"class="ui celled table">
+        <table cellpadding="0" cellspacing="0" class="ui celled table">
             <thead>
                 <tr>
                     <th></th>  
