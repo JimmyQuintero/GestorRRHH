@@ -38,7 +38,7 @@
                     </div>
                     <div class="field">
                         <label>-</label>
-                        <input type="submit" class="ui button ">
+                        <input type="submit" class="ui button" value="Buscar">
                     </div>
                     <div class="field">
                         <label>-</label>
