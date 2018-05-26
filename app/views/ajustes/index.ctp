@@ -1,3 +1,5 @@
+<div class="ui segment vertical very padded">
+<div class="ui container">  
 <div class="box">
     <div class="title"><h2>Administrar Conceptos</h2></div>
     <div class="content pages">
@@ -26,7 +28,7 @@
             <?php echo $this->Paginator->numbers(array('class' => 'disabled', 'separator' => '')); ?>
             <?php echo $this->Paginator->next(null, array(), null, array('class' => 'disabled')); ?>
         </div>
-        <table cellpadding="0" cellspacing="0">
+        <table cellpadding="0" cellspacing="0" class="ui celled table">
             <thead>
                 <tr>
                     <th></th>  
@@ -96,4 +98,6 @@
 </div>
 <div class="box">
     <?php echo $this->Session->flash(); ?>
+</div>
+</div>
 </div>

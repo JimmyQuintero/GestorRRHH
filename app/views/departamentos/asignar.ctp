@@ -1,3 +1,6 @@
+<div class="ui segment vertical very padded">
+<div class="ui container">  
+
 <div class="box">
     <?php echo $this->Session->flash(); ?>
 </div>
@@ -31,3 +34,4 @@
         </div>  
     </div>
 </div>
+</div></div>

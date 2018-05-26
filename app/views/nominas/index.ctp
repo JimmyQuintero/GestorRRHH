@@ -26,7 +26,7 @@
             echo "</div>";
             echo "<div style='float:left;width:20%'>";
             echo $this->Form->label('Año: ');
-            echo $this->Form->input('AÑO', array('div' => false, 'label' => false, 'class' => 'ui input'));
+            echo $this->Form->input('AÑO', array('div' => false, 'label' => false, 'class' => 'ui input focus'));
             echo "</div>";
             echo "<div style='float:left;width:15%;padding-top:20px'>";
             echo $this->Form->End('Buscar');
