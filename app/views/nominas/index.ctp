@@ -1,40 +1,3 @@
-<<<<<<< HEAD
-<div class="ui segment vertical very padded">
-<div class="ui container">  
-<div class="box">
-    <div class="title"><h2>Nominas</h2></div>
-    <div class="content pages">
-        <div class="row">
-            <?php
-            echo $this->Form->create(false);
-            echo "<div>";
-            echo "<div style='float:left;width:30%;'>";
-            $options = 
-            array('1' => 'Enero', 
-                  '2' => 'Febrero', 
-                  '3' => 'Marzo', 
-                  '4' => 'Abril', 
-                  '5' => 'Mayo', 
-                  '6' => 'Junio', 
-                  '7' => 'Julio',
-                  '8' => 'Agosto', 
-                  '9' => 'Septiembre', 
-                  '10' => 'Octubre', 
-                  '11' => 'Noviembre', 
-                  '12' => 'Diciembre');
-            echo $this->Form->label('Mes: ');
-            echo $this->Form->input('Fopcion', array('div' => false, 'label' => false, 'class' => 'ui selection dropdown', 'type' => 'select', 'options' => $options, 'empty' => 'Seleccione una Opcion'));
-            echo "</div>";
-            echo "<div style='float:left;width:20%'>";
-            echo $this->Form->label('Año: ');
-            echo $this->Form->input('AÑO', array('div' => false, 'label' => false, 'class' => 'ui input focus'));
-            echo "</div>";
-            echo "<div style='float:left;width:15%;padding-top:20px'>";
-            echo $this->Form->End('Buscar');
-            echo "</div>";
-            echo "</div>";
-            ?>
-=======
 <div class="ui segment vertical">
     <div class="ui container">  
         <div class="ui header block">
@@ -91,7 +54,6 @@
                     </div>
                 </div>
             </div>
->>>>>>> 046f2991e0441bdd8536c0628844dbbb2ed66b66
         </div>
         <div class="box"></div>
         <div class="pagination">
