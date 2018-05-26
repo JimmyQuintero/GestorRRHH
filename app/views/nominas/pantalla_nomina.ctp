@@ -1,6 +1,6 @@
 
 <style>
-    tr{
+    thead > tr{
         color: #212121 !important;
         background-color: #212121 !important;
     }
