@@ -1,6 +1,6 @@
 
 <style>
-    .tabla > thead > tr{
+    .tabla  thead  th{
         background: #9C9D9E !important;
     }
 </style>
