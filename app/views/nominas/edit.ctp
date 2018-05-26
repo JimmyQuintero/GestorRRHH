@@ -80,6 +80,9 @@
             echo "</div>";
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 30dd1ae... Edit nomina
             echo "<div style='float:left;width:30%;'>";
             $options = array('Pantalla' => 'Pantalla', 'Archivo' => 'Archivo');
             echo $this->Form->input('VISUALIZAR', array('div' => false, 'label' => 'Visualizar', 'class' => 'small', 'type' => 'select', 'options' => $options, 'empty' => 'Seleccione una Opcion'));
@@ -87,6 +90,7 @@
             ?>
         </div>
         <div class="row"></div>
+<<<<<<< HEAD
 =======
                     </div>
                     <div class="field">
@@ -95,6 +99,8 @@
                         echo $this->Form->input('TIPO', array('div' => false, 'label' => 'Tipo', 'class' => 'ui dropdown', 'type' => 'select', 'options' => $options, 'empty' => 'Seleccione una Opcion'));
                         ?>
 >>>>>>> 3f584be3c280c93d81b408509c4f170dc8d89c90
+=======
+>>>>>>> parent of 30dd1ae... Edit nomina
 
         <div class="row">            
             <div class="boton">
