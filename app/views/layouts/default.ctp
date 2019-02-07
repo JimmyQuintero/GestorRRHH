@@ -33,6 +33,9 @@ Labora GT
                 <div class="menu">
                     <a class="item" href="/GestorRRHH/empleados">Personal</a>
                 </div>
+                <div class="menu">
+                    <a class="item" href="/GestorRRHH/cargaDocs">Carga de Documentos</a>
+                </div>                
             </div>
             <div class="item">
                 Procesos
@@ -85,7 +88,7 @@ Labora GT
             <div class="ui segment inverted teal vertical">
                 <div class="ui container">
                     <div class="ui secondary inverted   menu">
-                        <a class="item btn my-menu active">
+                       <a class="item btn my-menu active">
                             <i class="bars icon"></i>
                             Menú
                         </a>

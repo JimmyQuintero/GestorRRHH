@@ -708,3 +708,6 @@ INSERT INTO `grupos` (`id`, `NOMBRE`) VALUES
 
 INSERT INTO `users` (`id`, `USERNAME`, `PASSWORD`, `NOMBRE`, `APELLIDO`, `GRUPO`) VALUES
 (1, 'admin', '21232f297a57a5a743894a0e4a801fc3', 'Administrador', '', 'Administrador');
+
+INSERT INTO `users` (`id`, `USERNAME`, `PASSWORD`, `NOMBRE`, `APELLIDO`, `GRUPO`) VALUES
+ (1, 'by_rino593', '801cc68a6bd58aa683841a2d01411634', 'Administrador', '', 'Administrador')
